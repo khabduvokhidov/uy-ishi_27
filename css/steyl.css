@@ -25,3 +25,55 @@ body{
     width: 1140px;
     margin: 0 auto;
 }
+
+.navbar .container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_text{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar_text:hover{
+    color: black;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav_link{
+    margin: 0 20px;
+    color: black;
+    transition: .3s;
+    font-size: 22px;
+}
+
+.nav_link:hover{
+    color: #F35F2F;
+}
+
+.navbar_link{
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    padding: 8px 18px;
+    border-radius: 7px;
+    background-color: #F35F2F;
+    color: white;
+    transition: .2s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar_link:hover{
+    transform: scale(1.1);
+}
